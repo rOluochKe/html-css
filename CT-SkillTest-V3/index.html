@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CT SkillTest V3</title>
+    <!--  main.css-->
+    <link rel="stylesheet" href="style.css" />
+    <!--  google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--  owl css-->
+    <link rel="stylesheet" href="owl/owl.theme.default.css" />
+    <link rel="stylesheet" href="owl/owl.carousel.min.css" />
+  </head>
+
+  <body>
+    <!--  header -->
+    <section id="hero">
+      <!-- secondary nav -->
+      <section class="secondary-nav">
+        <div class="secondary-menu">
+          <div class="secondary-container">
+            <img src="img/logo.svg" alt="logo" />
+          </div>
+
+          <ul class="secondary-links">
+            <li><a href="#history">01. history</a></li>
+            <li><a href="#climb">02. team</a></li>
+          </ul>
+        </div>
+      </section>
+      <!-- end of secondary nav -->
+
+      <div class="banner" id="banner">
+        <div class="banner-card">
+          <h1>losangeles <br /><span>mountains</span></h1>
+        </div>
+      </div>
+    </section>
+    <!--  end of header -->
+
+    <!-- primary nav -->
+    <section class="primary-menu">
+      <nav class="primary-nav">
+        <div class="primary-container">
+          <img src="img/primary-logo.png" alt="logo" />
+          <div class="btn">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+
+        <ul class="primary-links">
+          <li><a href="#history">01. history</a></li>
+          <li><a href="#climb">02. team</a></li>
+        </ul>
+      </nav>
+    </section>
+    <!-- end of primary nav -->
+
+    <!-- history -->
+    <section class="history" id="history">
+      <div class="history-content">
+        <h2 class="title-text">01.<span>history</span></h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante
+          viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est.
+          Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras
+          scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis
+          hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec
+          congue.
+        </p>
+      </div>
+
+      <div class="history-slider">
+        <div class="history-img-slider owl-carousel owl-theme">
+          <div class="owl-image-1">
+            <img src="img/climb-img-one.png" alt="mountain" width="50" />
+          </div>
+          <div class="owl-image-3">
+            <img src="img/climb-img-three.png" alt="mountain" width="50" />
+          </div>
+          <div class="owl-image-4">
+            <img src="img/climb-img-four.png" alt="mountain" width="50" />
+          </div>
+          <div class="owl-image-2">
+            <img src="img/climb-img-two.png" alt="mountain" width="50" />
+          </div>
+          <div class="owl-image-1">
+            <img src="img/climb-img-one.png" alt="mountain" width="50" />
+          </div>
+          <div class="owl-image-3">
+            <img src="img/climb-img-three.png" alt="mountain" width="50" />
+          </div>
+          <div class="owl-image-4">
+            <img src="img/climb-img-four.png" alt="mountain" width="50" />
+          </div>
+          <div class="owl-image-2">
+            <img src="img/climb-img-two.png" alt="mountain" width="50" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of history -->
+
+    <div class="climb-header">
+      <div class="title">
+        <h2 class="title-text">02.<span>climb</span></h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante
+          viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est.
+          Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras
+          scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis
+          hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec
+          congue.
+        </p>
+      </div>
+    </div>
+
+    <!-- tabs header -->
+    <div class="tab">
+      <button
+        class="tablinks"
+        onclick="openMountain(event, 'mountain1')"
+        id="defaultOpen"
+      >
+        Mountain 1
+      </button>
+      <button class="tablinks" onclick="openMountain(event, 'mountain2')">
+        Mountain 2
+      </button>
+    </div>
+    <!-- end of tabs header -->
+
+    <!-- climd section -->
+    <section id="climb">
+      <div id="mountain1" class="tabcontent">
+        <h2 class="schedule-heading">schedule</h2>
+        <p class="schedule-content">
+          25 Nov 2016 <span>Vestibulum viverra</span>
+        </p>
+        <p class="schedule-content">
+          25 Nov 2016 <span>Vestibulum viverra</span>
+        </p>
+        <p class="schedule-content" id="third-content">
+          25 Nov 2016 <span>Vestibulum viverra</span>
+        </p>
+        <p class="schedule-content">
+          25 Nov 2016 <span>Vestibulum viverra</span>
+        </p>
+      </div>
+
+      <div id="mountain2" class="tabcontent">
+        <h2 class="schedule-heading">schedule</h2>
+        <p class="schedule-content">
+          25 Nov 2016 <span>Vestibulum viverra</span>
+        </p>
+        <p class="schedule-content">
+          25 Nov 2016 <span>Vestibulum viverra</span>
+        </p>
+        <p class="schedule-content" id="third-content">
+          25 Nov 2016 <span>Vestibulum viverra</span>
+        </p>
+        <p class="schedule-content">
+          25 Nov 2016 <span>Vestibulum viverra</span>
+        </p>
+      </div>
+    </section>
+    <!-- end of climb section -->
+
+    <!-- footer -->
+    <footer id="footer">
+      <img src="img/footer-logo.png" alt="logo" />
+      <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+    </footer>
+    <!-- end of footer -->
+
+    <script>
+      function openMountain(evt, cityName) {
+        var i, tabcontent, tablinks
+        tabcontent = document.getElementsByClassName('tabcontent')
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = 'none'
+        }
+        tablinks = document.getElementsByClassName('tablinks')
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(' active', '')
+        }
+        document.getElementById(cityName).style.display = 'block'
+        evt.currentTarget.className += ' active'
+      }
+
+      document.getElementById('defaultOpen').click()
+    </script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--  owl js-->
+    <script src="owl/owl.carousel.min.js"></script>
+    <!-- main js-->
+    <script src="app.js"></script>
+  </body>
+</html>
